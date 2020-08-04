@@ -31,10 +31,7 @@ CREATE TABLE `categories` (
 -- Dumping data for table `categories`
 --
 
-INSERT INTO `categories` VALUES(14, 9, 'Main');
-INSERT INTO `categories` VALUES(15, 9, 'news');
-INSERT INTO `categories` VALUES(16, 16, 'Main');
-INSERT INTO `categories` VALUES(17, 16, 'adsf');
+INSERT INTO `categories` VALUES(1, 1, 'Main');
 
 -- --------------------------------------------------------
 
@@ -53,27 +50,6 @@ CREATE TABLE `favorites` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=84 ;
 
 --
--- Dumping data for table `favorites`
---
-
-INSERT INTO `favorites` VALUES(70, 9, 0, '301 Moved Permanently', 'http://www.btemplates.com/2008/blogger-template-creative-art/', 1);
-INSERT INTO `favorites` VALUES(66, 9, 14, 'Creative Art', 'http://btemplates.com/2008/blogger-template-creative-art/', 0);
-INSERT INTO `favorites` VALUES(64, 9, 0, 'Google', 'http://www.google.com', 1);
-INSERT INTO `favorites` VALUES(71, 9, 0, '301 Moved Permanently', 'http://www.btemplates.com/2008/blogger-template-creative-art/', 1);
-INSERT INTO `favorites` VALUES(72, 9, 0, 'Creative Art Blogger template - BTemplates', 'http://btemplates.com/2008/blogger-template-creative-art/', 0);
-INSERT INTO `favorites` VALUES(75, 9, 0, '36 Fresh and Beautiful Free Blogger Templates - DzineBlog.com', 'http://dzineblog.com/2009/06/fresh-and-beautifull-blogger-templates.html', 0);
-INSERT INTO `favorites` VALUES(76, 9, 0, 'Download 60 Fresh And Creative Blogger Templates For Free', 'http://www.techtreak.com/downloads/download-60-fresh-and-creative-blogger-templates-for-free/', 0);
-INSERT INTO `favorites` VALUES(77, 9, 0, 'Free Blog Templates, Sketch Blog Templates', 'http://www.bestfreetemplates.info/webtemplates/freewebtemplates-20.html', 0);
-INSERT INTO `favorites` VALUES(78, 9, 0, 'Free Templates for Blogger and Wordpress / Plantillas Gratis para Blogger y Wordpress...', 'http://www.giselejaquenod.com.ar/blog/blogger-templates/', 1);
-INSERT INTO `favorites` VALUES(79, 9, 0, 'Blogger Templates', 'http://btemplates.com/', 0);
-INSERT INTO `favorites` VALUES(80, 9, 0, '43 Incredibly Useful Collection of Tutorials, Resources, Inspirations etc To Discover The Best...', 'http://appslog.com/blog/1-blog/674-43-incredibly-useful-collection-of-tutorials-resources-inspirations-etc-to-discover-the-best-of-the-web-in-february.html', 1);
-INSERT INTO `favorites` VALUES(81, 9, 14, 'Google', 'http://google.com', 1);
-INSERT INTO `favorites` VALUES(82, 9, 14, '43 Incredibly Useful Collection of Tutorials, Resources, Inspirations etc To Discover The Best Of The Web In February', 'http://appslog.com/blog/1-blog/674-43-incredibly-useful-collection-of-tutorials-resources-inspirations-etc-to-discover-the-best-of-the-web-in-february.html', 0);
-INSERT INTO `favorites` VALUES(83, 9, 14, 'Free Templates for Blogger and Wordpress / Plantillas Gratis para Blogger y Wordpress | Gisele Jaquenod', 'http://www.giselejaquenod.com.ar/blog/blogger-templates/', 0);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `users`
 --
 
@@ -89,7 +65,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` VALUES(1, 'mn', '123', 'naderian.mahdi@gmail.com');
+INSERT INTO `users` VALUES(1, 'mn', '123', 'sample@gamil.com');
 
 -- --------------------------------------------------------
 
