@@ -15,3 +15,6 @@ Another way is to run the app using the PHP CLI:
 ```shell
 php -S localhost:8000
 ```
+
+## CAUTION
+This application is made for teaching purposes. You are free to use any way you like. But using it in production is not recommended.
