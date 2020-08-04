@@ -1,0 +1,104 @@
+
+div#main {
+    font-family: calibri,serif;
+}
+fieldset {
+    border: 5px solid #00A2F0;
+    border-radius: 11px 11px 11px 11px;
+    height: 226px;
+    margin: 157px auto 0;
+    width: 581px;
+}
+legend {
+    color: #00A2F0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 0 7px;
+}
+form {
+    margin-left: 46px;
+    margin-top: 25px;
+}
+label {
+    color: #00A2F0;
+    display: block;
+    float: left;
+    font-family: calibri,serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 20px;
+    text-align: right;
+    width: 70px;
+}
+input.text {
+    border: 1px solid #00A2F0;
+    border-radius: 11px 11px 11px 11px;
+    color: #00A2F0;
+    font-family: calibri,serif;
+    height: 30px;
+    margin-bottom: 12px;
+    padding-left: 6px;
+    width: 397px;
+}
+input.submit {
+    background-color: white;
+    border: 1px solid #00A2F0;
+    border-radius: 11px 11px 11px 11px;
+    color: #00A2F0;
+    display: block;
+    float: right;
+    font-family: calibri,serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 31px;
+    margin-right: 8px;
+    margin-top: 51px;
+    padding-bottom: 4px;
+    width: 84px;
+}
+input.submit:hover {
+    background-color: #00A2F0;
+    border: medium none;
+    color: white;
+}
+.cancel {
+    background-color: white;
+    border: 1px solid #00A2F0;
+    border-radius: 11px 11px 11px 11px;
+    color: #00A2F0;
+    cursor: default;
+    display: block;
+    float: right;
+    font-family: calibri,serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 28px;
+    margin-right: 36px;
+    margin-top: 51px;
+    padding-bottom: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 84px;
+}
+.cancel:hover {
+    background-color: #00A2F0;
+    border: medium none;
+    color: white;
+    height: 29px;
+    line-height: 30px;
+    width: 86px;
+}
+select {
+    border: 1px solid #00A2F0;
+    border-radius: 4px 4px 4px 4px;
+    color: #048BC9;
+    font-family: calibri,serif;
+    font-size: 18px;
+    height: 30px;
+    margin-left: 2px;
+    padding-left: 4px;
+    padding-top: 0;
+    width: 214px;
+}

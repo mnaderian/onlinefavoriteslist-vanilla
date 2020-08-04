@@ -1,0 +1,98 @@
+
+div#main {
+    font-family: calibri,serif;
+    height: 350px;
+    margin: 130px auto 0;
+    padding-left: 20px;
+    width: 636px;
+}
+h4.error {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -16px;
+    padding-left: 35px;
+    text-align: left;
+}
+fieldset {
+    border: 5px solid #FF7F27;
+    border-radius: 11px 11px 11px 11px;
+    height: 216px;
+    margin: 0 auto;
+    width: 544px;
+}
+legend {
+    color: #FF7F27;
+    font-size: 19px;
+    margin: 0 20px 0 28px;
+    padding: 0 8px;
+}
+div#main h3 {
+    color: #FF7F27;
+    display: block;
+    float: right;
+    font-family: calibri,serif;
+    font-size: 20px;
+    margin-top: -28px;
+    padding-right: 90px;
+}
+div#main h3 span {
+    font-size: 13px;
+}
+div#main form {
+    margin: 0 auto;
+    padding-left: 82px;
+    padding-top: 49px;
+}
+div#main form label {
+    color: gray;
+    display: block;
+    float: left;
+    line-height: 27px;
+    margin: 0 14px 0 auto;
+    text-align: right;
+    width: 72px;
+}
+#main a#register_here:hover {
+    color: #0C8007;
+    text-decoration: underline;
+}
+div#main a#register_here {
+    color: #7092BE;
+    display: block;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 86px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+input.text {
+    border: 1px solid gray;
+    border-radius: 11px 11px 11px 11px;
+    color: orange;
+    font-family: calibri,serif;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 11px;
+    padding-left: 5px;
+    width: 275px;
+}
+input.submit {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 11px 11px 11px 11px;
+    font-family: calibri;
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    margin-left: 145px;
+    margin-top: 14px;
+    padding-bottom: 5px;
+    width: 100px;
+}
+input.submit:hover {
+    border-color: #FF7F27;
+    color: #FF7F27;
+}

@@ -1,0 +1,136 @@
+div#main {
+    color: #22B14C;
+    font-family: calibri;
+    height: 310px;
+    margin: 110px auto 0;
+    padding: 0;
+    width: 540px;
+}
+h4.error {
+    color: red;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -16px;
+    text-align: left;
+}
+h4.success {
+    color: #2FB0FF;
+    font-style: italic;
+    font-weight: normal;
+}
+h4.success a {
+    color: #2FB0FF;
+    text-decoration: underline;
+}
+h4.success a:hover {
+    color: orange;
+}
+fieldset {
+    border: 5px solid #22B14C;
+    border-radius: 11px 11px 11px 11px;
+    height: 310px;
+    margin: 0 auto;
+    width: 540px;
+}
+legend {
+    color: #22B14C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 0 7px;
+}
+.btn {
+    background-color: #22B14C;
+    border-radius: 11px 11px 11px 11px;
+    display: block;
+    float: right;
+    height: 40px;
+    margin: 10px 10px 2px 2px;
+    padding: 0 0 1px;
+    text-align: center;
+    width: 121px;
+}
+#cancel {
+    background-color: #22B14C;
+    border: 1px solid white;
+    border-radius: 11px 11px 11px 11px;
+    color: white;
+    cursor: default;
+    display: block;
+    font-family: calibri,serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 31px;
+    line-height: 29px;
+    margin-left: 3px;
+    margin-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 113px;
+}
+input#register {
+    background-color: #22B14C;
+    border: 1px solid white;
+    border-radius: 11px 11px 11px 11px;
+    color: white;
+    font-family: calibri,serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 31px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    width: 113px;
+}
+.btn:hover {
+    background-color: white;
+    border: 1px solid #22B14C;
+}
+#cancel:hover {
+    background-color: white;
+    border: 1px solid #22B14C;
+    color: #22B14C;
+    cursor: default;
+}
+input#register:hover {
+    background-color: white;
+    border: 1px solid #22B14C;
+    color: #22B14C;
+}
+label {
+    display: block;
+    float: left;
+    font-family: calibri,serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 13px;
+    text-align: right;
+    width: 170px;
+}
+form {
+    margin-top: 36px;
+}
+input.text {
+    border: 1px solid #22B14C;
+    border-radius: 11px 11px 11px 11px;
+    color: green;
+    font-family: calibri,serif;
+    height: 31px;
+    margin-bottom: 18px;
+    padding-left: 7px;
+    width: 281px;
+}
+#remove_account {
+    text-align: center;
+    padding-top: 14px;
+    font-weight: bold;
+}
+#remove_account a {
+    color: #2082B0;
+    text-decoration: none;
+}
+#remove_account a:hover {
+    background-color: #2082B0;
+    color: white;
+    padding: 5px 17px;
+    border-radius: 7px;
+}
