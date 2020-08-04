@@ -22,12 +22,7 @@
 					<input type="checkbox" name="check_new_window" 
 					<?php if($user_settings['check_new_window'] == true) 
 					{echo ' checked ';} ?> value="new_window" />
-					<span>Open links in new window or tab</span><br />
-					
-					<!-- <input type="checkbox" name="choices" 
-					<?php if($user_settings['choices'] == true) 
-					{echo ' checked ';} ?> value="choices" />
-					<span>Turn on choices</span><br /> -->
+					<span>Open links in a new window or tab</span><br />
 					
 					<div id="buttons">
 						<a class="cancel" href="index.php">Cancel</a>

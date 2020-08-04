@@ -12,15 +12,6 @@
 	}
 	//---------------------------
 	
-	// checkbox -  open link in new window:
-	if(isset($_POST['choices']) && $_POST['choices'] == 'choices') {
-		set_choices(true, $_SESSION['username']);
-	}
-	else {
-		set_choices(false, $_SESSION['username']);
-	}
-	//---------------------------
-	
 	redirect('index.php');
 
 ?>

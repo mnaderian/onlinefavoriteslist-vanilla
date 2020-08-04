@@ -106,5 +106,4 @@ CREATE TABLE `user_settings` (
 -- Dumping data for table `user_settings`
 --
 
-INSERT INTO `user_settings` VALUES(9, '');
-INSERT INTO `user_settings` VALUES(15, '');
+INSERT INTO `user_settings` VALUES(1, 0);
