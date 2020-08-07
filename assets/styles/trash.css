@@ -1,6 +1,6 @@
-
+@import 'common.css';
 div#main {
-    font-family: calibri,serif;
+    font-family: nunito,serif;
 }
 fieldset {
     border: 5px solid #D2A563;
@@ -24,7 +24,7 @@ label {
     color: #00A2F0;
     display: block;
     float: left;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 18px;
     font-weight: bold;
     padding-right: 20px;
@@ -35,7 +35,7 @@ input.text {
     border: 1px solid #00A2F0;
     border-radius: 11px 11px 11px 11px;
     color: #00A2F0;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     height: 30px;
     margin-bottom: 12px;
     padding-left: 6px;
@@ -48,7 +48,7 @@ input.submit {
     color: #B738A5;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 31px;
@@ -69,7 +69,7 @@ button.cancel {
     color: #B738A5;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 31px;
@@ -91,7 +91,7 @@ button.cancel:hover {
     background-color: #A7830D;
     border-radius: 12px 12px 12px 12px;
     color: white;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-weight: bold;
     padding: 4px 14px;
     text-decoration: none;
@@ -103,7 +103,7 @@ button.cancel:hover {
 }
 #empty_message {
     color: #ACB7AA;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 25px;
     font-weight: bold;
     padding: 32px;
@@ -125,6 +125,8 @@ button.cancel:hover {
     margin: 7px 0;
     text-decoration: none;
     width: 119px;
+    font-size: 14px;
+    line-height: 21px;
 }
 .trashed_item a.url {
     margin-right: 2px;
@@ -149,7 +151,7 @@ button.cancel:hover {
     border: 3px solid #8BA8C2;
     width: 167px;
     text-align: center;
-    font-family: calibri, serif;
+    font-family: nunito, serif;
     font-style: italic;
     padding: 4px 11px;
     color: #8BA8C2;
@@ -160,3 +162,4 @@ button.cancel:hover {
     background-color: white;
     font-weight: bold;
 }
+

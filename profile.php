@@ -35,8 +35,8 @@
 			    border-color: red;
 			    color: red;
 			    width: 119px;
-			    height: 37px;
-			    line-height: 39px;
+			    /*height: 37px;*/
+			    /*line-height: 39px;*/
 			}
 		</style>
 	</head>

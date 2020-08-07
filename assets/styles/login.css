@@ -1,6 +1,6 @@
-
+@import 'common.css';
 div#main {
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     height: 350px;
     margin: 130px auto 0;
     padding-left: 20px;
@@ -32,7 +32,7 @@ div#main h3 {
     color: #FF7F27;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 20px;
     margin-top: -28px;
     padding-right: 90px;
@@ -72,7 +72,7 @@ input.text {
     border: 1px solid gray;
     border-radius: 11px 11px 11px 11px;
     color: orange;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-weight: bold;
     height: 28px;
     margin-bottom: 11px;
@@ -83,13 +83,12 @@ input.submit {
     background-color: white;
     border: 1px solid black;
     border-radius: 11px 11px 11px 11px;
-    font-family: calibri;
+    font-family: nunito;
     font-size: 18px;
     font-weight: bold;
     height: 37px;
     margin-left: 145px;
     margin-top: 14px;
-    padding-bottom: 5px;
     width: 100px;
 }
 input.submit:hover {

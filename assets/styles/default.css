@@ -1,6 +1,6 @@
-
+@import 'common.css';
 div#main {
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     margin: 0 auto;
     width: 790px;
 }
@@ -21,7 +21,7 @@ h1 span {
 }
 #welcome_logout a {
     color: #96951A;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     text-decoration: none;
 }
 #welcome_logout a:hover {
@@ -52,7 +52,7 @@ fieldset#addsite input.text {
     border-radius: 11px 11px 11px 11px;
     color: #028B98;
     display: block;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     height: 34px;
     margin-bottom: 9px;
     padding-left: 5px;
@@ -62,7 +62,7 @@ fieldset#addsite select {
     border: 2px solid #3BAAB4;
     border-radius: 5px 5px 5px 5px;
     color: #0E95A2;
-    font-family: calibri;
+    font-family: nunito;
     font-size: 20px;
     height: 34px;
     margin-left: 48px;
@@ -72,7 +72,7 @@ fieldset#addsite label {
     color: #1A949A;
     display: block;
     float: left;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 17px;
     font-weight: bold;
     padding-top: 5px;
@@ -88,13 +88,13 @@ fieldset#addsite input.submit {
     border-radius: 11px 11px 11px 11px;
     color: #06A0A3;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 35px;
     margin-left: 15px;
     margin-right: 18px;
-    padding-bottom: 4px;
+    /* padding-bottom: 4px; */
     width: 83px;
 }
 fieldset#addsite input.submit:hover {
@@ -136,8 +136,8 @@ div.link:hover {
 }
 div.link a {
     color: #006895;
-    font-family: calibri,serif;
-    font-size: 15px;
+    font-family: nunito,serif;
+    font-size: 17px;
     text-decoration: none;
 }
 div.link a:visited {
@@ -156,7 +156,9 @@ div.options {
     margin-left: -10px;
     margin-top: 5px;
     padding-top: 6px;
-    width: 128px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: bold;
 }
 div.options a, div.options:visited {
     border: medium none;
@@ -193,7 +195,7 @@ div.options a:hover {
     border: 1px solid #4D9108;
     border-radius: 6px 6px 6px 6px;
     color: #4D9108;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     margin: 0 1px;
     padding: 2px 11px 4px 12px;
     text-decoration: none;
@@ -219,7 +221,7 @@ div.options a:hover {
     border: 1px solid #B32A2A;
     border-radius: 5px 5px 5px 5px;
     color: #B32A2A;
-    font-family: calibri;
+    font-family: nunito;
     font-weight: bold;
     width: 100px;
 }
@@ -240,3 +242,5 @@ div.options a:hover {
     margin-left: 13px;
     margin-right: 12px;
 }
+
+

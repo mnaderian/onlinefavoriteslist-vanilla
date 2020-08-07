@@ -1,6 +1,6 @@
-
+@import 'common.css';
 div#main {
-    font-family: calibri,serif;
+    font-family: nunito,serif;
 }
 fieldset {
     border: 5px solid #00A2F0;
@@ -24,7 +24,7 @@ label {
     color: #00A2F0;
     display: block;
     float: left;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 18px;
     font-weight: bold;
     padding-right: 20px;
@@ -35,7 +35,7 @@ input.text {
     border: 1px solid #00A2F0;
     border-radius: 11px 11px 11px 11px;
     color: #00A2F0;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     height: 30px;
     margin-bottom: 12px;
     padding-left: 6px;
@@ -48,7 +48,7 @@ input.submit {
     color: #00A2F0;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 31px;
@@ -70,7 +70,7 @@ input.submit:hover {
     cursor: default;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 26px;
@@ -94,7 +94,7 @@ select {
     border: 1px solid #00A2F0;
     border-radius: 4px 4px 4px 4px;
     color: #048BC9;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 18px;
     height: 30px;
     margin-left: 2px;

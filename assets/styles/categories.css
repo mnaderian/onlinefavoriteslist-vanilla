@@ -1,6 +1,7 @@
+@import 'common.css';
 
 div#main {
-    font-family: calibri,serif;
+    font-family: nunito,serif;
 }
 fieldset {
     border: 5px solid #B15E5E;
@@ -27,10 +28,10 @@ label {
     color: #AD6368;
     display: block;
     float: left;
-    font-family: calibri,serif;
-    font-size: 18px;
+    font-family: nunito,serif;
+    font-size: 17px;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 29px;
     padding-right: 20px;
     text-align: right;
     width: 63px;
@@ -39,26 +40,26 @@ input.text {
     border: 1px solid #AA2145;
     border-radius: 11px 11px 11px 11px;
     color: #A91436;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     height: 30px;
     margin-bottom: 12px;
     padding-left: 6px;
     width: 347px;
 }
 input.submit {
-    background-color: white;
-    border: 1px solid #B7385E;
+    background-color: #ffffff;
+    border: 2px solid #B7385E;
     border-radius: 11px 11px 11px 11px;
     color: #A04A55;
     display: block;
     float: right;
-    font-family: calibri,serif;
-    font-size: 16px;
+    font-family: nunito,serif;
+    font-size: 14px;
     font-weight: bold;
-    height: 30px;
+    height: 32px;
     margin-right: 29px;
-    margin-top: 0;
-    padding-bottom: 4px;
+    margin-top: -1px;
+    padding-bottom: 0px;
     width: 118px;
 }
 input.submit:hover {
@@ -73,7 +74,7 @@ button.cancel {
     color: #B738A5;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 16px;
     font-weight: bold;
     height: 31px;
@@ -95,9 +96,10 @@ button.cancel:hover {
     background-color: #A4354B;
     border-radius: 12px 12px 12px 12px;
     color: white;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-weight: bold;
     padding: 4px 14px;
+    font-size: 14px;
     text-decoration: none;
 }
 #trash_menu a.menu:hover {
@@ -107,7 +109,7 @@ button.cancel:hover {
 }
 #empty_message {
     color: #ACB7AA;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
     font-size: 25px;
     font-weight: bold;
     padding: 32px;
@@ -135,8 +137,8 @@ button.cancel:hover {
     border-radius: 22px 22px 22px 22px;
     color: #1060B5;
     float: right;
-    font-family: calibri,serif;
-    font-size: 13px;
+    font-family: nunito,serif;
+    font-size: 12px;
     line-height: 17px;
     margin-left: 35px;
     margin-right: 15px;
@@ -150,10 +152,12 @@ button.cancel:hover {
 }
 .trashed_item a {
     color: #FFFFFF;
-    font-family: calibri,serif;
-    line-height: 33px;
+    font-family: nunito,serif;
+    line-height: 35px;
     margin-left: 0;
     margin-right: 12px;
+    font-weight: bold;
+    font-size: 14px;
     text-decoration: none;
 }
 .options a {
@@ -178,7 +182,8 @@ button.cancel:hover {
     color: #A34151;
     display: block;
     float: right;
-    font-family: calibri,serif;
+    font-family: nunito,serif;
+    font-size: 15px;
     font-style: italic;
     font-weight: bold;
     margin-top: -33px;
@@ -191,3 +196,4 @@ button.cancel:hover {
 	font-style: italic;
 	color: red;
 }
+
