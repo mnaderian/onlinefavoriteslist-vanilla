@@ -29,9 +29,11 @@ h4.success a:hover {
 fieldset {
     border: 5px solid #22B14C;
     border-radius: 11px 11px 11px 11px;
-    height: 310px;
+    height: auto;
     margin: 0 auto;
     width: 540px;
+    overflow: hidden;
+    padding-bottom: 14px;
 }
 legend {
     color: #22B14C;
