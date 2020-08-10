@@ -139,9 +139,6 @@ function print_favorites_list($list, $username)
 		}
 		$title_length = 95;
 		echo '<div class="link">';
-		if ($settings['choices'] == true) {
-			echo '<input class="choice" type="checkbox" name="choice[]" value="id' . $list['id'] . '" />';
-		}
 		echo '<a href="' . $fav_list['url'] . '" title="' . $title . '"';
 		if ($settings['check_new_window'] == true) {
 			echo ' target="_blank" ';
