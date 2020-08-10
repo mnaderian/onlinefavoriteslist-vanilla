@@ -62,12 +62,6 @@ if (isset($_POST['list_cats'])) {
             <a href="settings.php">Settings</a>
             <a href="categories.php">Categories</a>
             <a href="trash.php">Trash</a>
-            <?php
-            $settings = get_user_settings($_SESSION['username']);
-            if ($settings['choices'] == true) {
-                echo '<a href="delete_selected.php">Delete Selected</a>';
-            }
-            ?>
         </div>
 
         <div id="number_of_favorites">
