@@ -54,7 +54,7 @@ input.submit {
     height: 31px;
     margin-right: 8px;
     margin-top: 51px;
-    padding-bottom: 4px;
+    /*! padding-bottom: 4px; */
     width: 84px;
 }
 input.submit:hover {
@@ -102,3 +102,4 @@ select {
     padding-top: 0;
     width: 214px;
 }
+
