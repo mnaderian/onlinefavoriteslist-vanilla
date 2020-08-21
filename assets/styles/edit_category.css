@@ -5,9 +5,10 @@ div#main {
 fieldset {
     border: 5px solid #888886;
     border-radius: 11px 11px 11px 11px;
-    height: 159px;
+    height: auto;
     margin: 157px auto 0;
     width: 581px;
+    overflow: hidden;
 }
 legend {
     color: #888886;

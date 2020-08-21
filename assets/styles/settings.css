@@ -8,6 +8,7 @@ fieldset {
     height: auto;
     margin: 157px auto 0;
     width: 581px;
+    overflow: hidden;
 }
 legend {
     color: #B738A5;
