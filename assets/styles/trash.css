@@ -159,7 +159,7 @@ button.cancel:hover {
     border-radius: 11px;
     display: block;
     float: right;
-    margin-top: -33px;
+    margin-top: 0px;
     background-color: white;
     font-weight: bold;
 }
