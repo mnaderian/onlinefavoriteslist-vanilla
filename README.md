@@ -8,8 +8,8 @@ To install it you just need to upload the files to the server.
 The package contains a <b>favorits.sql</b> file. Create a db in MySQL, and then import it into your database.  
 Then open <b>includes > database_info.php</b> and set the settings for the database. That's it, you're ready to fire up!
 
-## Starting the App  
-To start the app you can either use any AMP Stack web development tool like XAMPP, MAMP, LAMP, WAMP or you can use [Laravel Homestead](https://laravel.com/docs/homestead).   
+## Running Locally
+To run the app locally for development purposes, you can either use any AMP Stack web development tool like XAMPP, MAMP, LAMP, WAMP or you can use [Laravel Homestead](https://laravel.com/docs/homestead) or [Laravel Valet](https://laravel.com/docs/valet).   
 
 Another way is to run the app using the PHP CLI:  
 ```shell
@@ -17,4 +17,4 @@ php -S localhost:8000
 ```
 
 ## CAUTION
-This application is made for teaching purposes. You are free to use any way you like. But using it in production is not recommended.
+This application is made for educational purposes for now. You are free to use it any way you like, But using it in production is not recommended.
